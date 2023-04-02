@@ -5,7 +5,7 @@
     @Last updated: 01/04/2023
     @By Mohamed
     For: SMS Chatbot
-    Purpose: This is driver programan Connecting chatgpt 3.5 with AT 2 Ways SMS API
+    Purpose: This is driver program Connecting chatgpt 3.5 with AT 2 Ways SMS API
     License: GNU GPL v2.0 or Later versions
 '''
 import africastalking
