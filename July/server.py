@@ -67,10 +67,11 @@ def authme2():
 
 @app.route("/logout")
 def logoutpage():
-    phone = session.get("phone")
+    phone = session.get("phone") # don't use session.get("phone") since we have phone number in session 
     update_query = "UPDATE users SET login = %s WHERE phone = %s"
     db_cursor.execute(update_query, (0, phone))
     db_connection.commit()
+    db_connection.close()
     return render_template("login.html")
 
 
