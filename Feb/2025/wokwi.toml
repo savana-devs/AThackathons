@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = '.pio/build/fm-devkit/firmware.bin'
+elf = '.pio/build/fm-devkit/firmware.elf'
